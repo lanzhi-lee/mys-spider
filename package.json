@@ -1,5 +1,5 @@
 {
-  "name": "genshin-spider",
+  "name": "mys-spider",
   "version": "0.0.1",
   "description": "米游社博文批量抓取",
   "type": "module",
@@ -8,7 +8,10 @@
     "parse": "esno parse.ts"
   },
   "keywords": [
-    "genshin"
+    "genshin",
+    "mihoyo",
+    "mys",
+    "miyoushe"
   ],
   "author": "lanzhi @lanzhi_lee@163.com",
   "license": "MIT",
