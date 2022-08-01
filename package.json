@@ -4,7 +4,8 @@
   "description": "米游社博文批量抓取",
   "type": "module",
   "scripts": {
-    "get-data": "esno get.ts"
+    "get-data": "esno get.ts",
+    "parse": "esno parse.ts"
   },
   "keywords": [
     "genshin"

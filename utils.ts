@@ -4,10 +4,12 @@ import { fileURLToPath } from 'url'
 import { Low, JSONFile } from 'lowdb'
 
 import type { PlainDBType } from './get.js'
+import type { ParsedDBType } from './parse.js'
 
 export const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export const getPlainDataDB = getDB<PlainDBType>('data/plain.json')
+export const getParsedDataDB = getDB<ParsedDBType>('data/final.json')
 
 function getDB<T>(fileName: string) {
   let db: Low<T>

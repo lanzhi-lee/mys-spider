@@ -123,7 +123,7 @@ type UserPostRes = {
   next_offset: string
 }
 
-type PostType = Awaited<ReturnType<typeof getPosts>>
+export type PostType = Awaited<ReturnType<typeof getPosts>>
 export type PlainDBType = {
   lastUpdateTime: string
   nickname: string
