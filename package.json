@@ -1,0 +1,30 @@
+{
+  "name": "genshin-spider",
+  "version": "0.0.1",
+  "description": "米游社博文批量抓取",
+  "type": "module",
+  "scripts": {
+    "get-data": "esno get.ts"
+  },
+  "keywords": [
+    "genshin"
+  ],
+  "author": "lanzhi @lanzhi_lee@163.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.4",
+    "fs-extra": "^10.1.0",
+    "lodash-es": "^4.17.21",
+    "lowdb": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash-es": "^4.17.6",
+    "@types/node": "^18.6.3",
+    "esno": "^0.16.3",
+    "typescript": "^4.7.4"
+  }
+}

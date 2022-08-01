@@ -1,0 +1,51 @@
+# Misc files
+*~
+~*
+._*
+.DS_Store
+Desktop.ini
+Thumbs.db
+.Trashes
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# Output files
+dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log
+
+# Editor directories and files
+.idea
+.settings/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Folder config file
+[Dd]esktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# husky
+.husky/_
+.husky/.gitignore
+
+# eslint
+.eslintcache
